@@ -24,7 +24,7 @@ npm install
 
 ### 修改配置
 
-修改src/app.js中 `var payConfig 变量参数`
+修改src/js/app.js中 `var payConfig 变量参数`
 
 
 ### 打包编译
