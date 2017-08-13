@@ -1,0 +1,87 @@
+html,
+body,
+header,
+section,
+footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    color: #000;
+    background-color: #f7f7f7;
+}
+
+header {
+    height: 3.40rem;
+    line-height: 3.4rem;
+    background-color: #44B549;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+
+.qrcode-footer-text {
+    width: 100%;
+    height: 3.40rem;
+    line-height: 0.7rem;
+    font-size: 0.7rem;
+    color: #aaaaaa;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    min-width: 250px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    margin-top: .5rem;
+}
+
+.qrcode {
+    background: #ffffff;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+.qrcode img {
+    max-width: 210px;
+    max-height: 210px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.qrcode-footer {
+    height: 3rem;
+    background: #ffffff;
+    text-align: center;
+}
+
+.qrcode-footer ul {
+    float: left;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.qrcode-footer ul li {
+    display: inline-block;
+    width: 2rem;
+    margin-right: .5rem;
+}
+
+.qrcode-footer ul li img {
+    width: 2rem;
+}
+
+#avatar {
+    width: 60px;
+    height: 60px;
+    padding-top: 2rem;
+}
+
+.qrcode-txt {
+    text-align: center;
+}
