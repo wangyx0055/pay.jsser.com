@@ -12,7 +12,7 @@
 
 <body>
     <header class="header" id="header">
-        <span id="pay-title">我的支付码</span>
+        <span id="pay-title"><%= htmlWebpackPlugin.options.title %></span>
     </header>
     <section class="container">
         <div class="qrcode-txt">
@@ -31,17 +31,18 @@
         </div>
         <div class="qrcode-footer-text" id="qrcode-text">打开手机微信、QQ或者支付宝扫码付款</div>
     </section>
+    <script>
+        var args = "";
+        (function(args) {
+            var ma = document.createElement("script");
+            ma.type = "text/javascript";
+            ma.async = true;
+            ma.src = '//log.jsser.com/ga.js?' + args;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.appendChild(ma, s);
+        })(args);
+    </script>
 </body>
-<script>
-    var args = "";
-    (function(args) {
-        var ma = document.createElement("script");
-        ma.type = "text/javascript";
-        ma.async = true;
-        ma.src = '//log.jsser.com/ga.js?' + args;
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.appendChild(ma, s);
-    })(args);
-</script>
+
 
 </html>

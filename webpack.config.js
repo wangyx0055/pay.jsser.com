@@ -22,7 +22,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: '我的支付码',
+            title: '我的收款码',
             filename: "index.html",
             template: "src/index.html",
             inject: true,
